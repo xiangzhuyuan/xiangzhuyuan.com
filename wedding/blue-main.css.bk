@@ -1,0 +1,290 @@
+/* reset */
+body, div, ul, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, th, td {
+    margin: 0;
+    padding: 0;
+
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img {
+    border: 0;
+}
+ul {
+    list-style: none;
+}
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+:focus {
+    outline: 0;
+}
+
+
+body {
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    background: url(blue/background.png) repeat;
+}
+h3 {
+    /* -webkit-margin-before: 14px; */
+    /* -webkit-margin-after: 18px; */
+}
+#subtitlehtml{
+    margin-top: 3px;
+    /* margin-bottom: 3px; */
+    text-align: center;
+    line-height: 1.0;
+    color: #7A4C00;
+    background-color: #D1EEFF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400%;
+    background: #ffffff;
+    margin: 0px 0 0 0px;
+    z-index: 200;
+}
+#contents{
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    margin: -50px 0 0 -30px;
+}
+#content{
+    box-shadow: 0px 0px 5px 3px rgba(30%,30%,30%,0.5) inset;
+    padding: 20px 15px;
+}
+
+.ui-accordion-header {
+    /* margin:0 auto; */
+
+}
+.ui-accordion-content {
+    display: block;
+    overflow: visible;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    background: url(blue/textbox_bg.png);
+    /* 加上背景 */
+    padding: 20px 25px;
+    -moz-box-shadow: 0px 0px 5px 3px rgba(30%,30%,30%,0.5) inset;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(30%,30%,30%,0.5) inset;
+    box-shadow: 0px 0px 5px 3px rgba(30%,30%,30%,0.5) inset;
+
+
+}
+
+
+
+
+#main-title {
+    background-color: #d0edff;
+}
+.main-title-tr,.main-title-tl,.main-title-tm {
+    font-size: 15%;
+}
+.main-title-mr {
+    /* height: 80px; */
+    background: url(blue/top_border_right.png) right center no-repeat;
+    padding-right: 21px;
+}
+.main-title-ml {
+    /* height: 80px; */
+    background: url(blue/top_border_left.png) left center no-repeat;
+    padding-left: 21px;
+}
+.main-title-mm {
+    width: auto;
+    color: #7A4C00;
+    line-height: 1.2;
+    text-align: center;
+    padding: 20px 0px 20px 0;
+}
+.main-title-bm {
+    height: 21px;
+    background: url(blue/top_border_line.png) repeat-x;
+}
+.button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#button1 .button-mr {
+    width: auto;
+    background: url(blue/button_1_ryt.png) right 0px no-repeat;
+}
+#button2 .button-ml {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_2_left.png) left 0px no-repeat;
+}
+#button3 .button-ml {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_3_left.png) left 0px no-repeat;
+}
+#button4 .button-ml {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_4_left.png) left 0px no-repeat;
+}
+#button5 .button-ml {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_4_left.png) left 0px no-repeat;
+}
+#button6 .button-ml {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_5_left.png) left 0px no-repeat;
+}
+#button7 .button-ml {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_5_left.png) left 0px no-repeat;
+}
+
+
+#button1 .button-ml {
+    width: auto;
+    background: url(blue/button_1_left.png) left 0px no-repeat;
+}
+#button2 .button-mr {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_2_ryt.png) right 0px no-repeat;
+}
+#button3 .button-mr {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_3_ryt.png) right 0px no-repeat;
+}
+#button4 .button-mr {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_4_ryt.png) right 0px no-repeat;
+}
+#button5 .button-mr {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_4_ryt.png) right 0px no-repeat;
+}
+#button6 .button-mr {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_5_ryt.png) right 0px no-repeat;
+}
+#button7 .button-mr {
+    /*右框 内容*/
+    width: auto;
+    background: url(blue/button_5_ryt.png) right 0px no-repeat;
+}
+.button-ml {
+    display: block;
+    height: 50px;
+    color: #7A4C00;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 50px;
+    padding-left: 30px;
+}
+.button-mr {
+    display: block;
+    height: 50px;
+    color: #7A4C00;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 50px;
+    padding-right: 25px;
+}
+.ui-accordion-icons .ui-accordion-header a {
+    padding-left: 0.3em;
+}
+.button-mm a {
+    position: relative;
+    display: block;
+    height: 50px;
+    /* background: url(images/btn_bg1.png) 0px 0px repeat-x; */
+    /* margin: 0 60px; */
+    color: #7A4C00;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 50px;
+}
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.button-mm a img {
+    height: 33px;
+    width: 32px;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    /* float: left; */
+    /* margin-top: -10px; */
+}
+img {
+    border: 0;
+}
+.button-mm a span {
+    padding-left: 35px;
+}
+
+.button-mm {
+    width: auto;
+    background: url(blue/button_2_mid.png) center 0px repeat-x;
+    position: relative;
+    display: block;
+    height: 50px;
+}
+footer {
+    text-align: center;
+}
+.ui-state-hover #button1 .button-ml,.ui-state-hover #button2 .button-ml,.ui-state-hover #button3 .button-ml,.ui-state-hover #button4 .button-ml,.ui-state-hover #button5 .button-ml,.ui-state-hover #button6 .button-ml,.ui-state-hover #button7 .button-ml {
+    background-position: left -50px;
+}
+
+.ui-state-active #button1 .button-ml,.ui-state-active #button2 .button-ml,.ui-state-active #button3 .button-ml,.ui-state-active #button4 .button-ml,.ui-state-active #button5 .button-ml,.ui-state-active #button6 .button-ml,.ui-state-active #button7 .button-ml {
+    background-position: left -100px;
+}
+
+
+
+.ui-state-hover #button1 .button-mm,.ui-state-hover #button2 .button-mm,.ui-state-hover #button3 .button-mm,.ui-state-hover #button4 .button-mm,.ui-state-hover #button5 .button-mm,.ui-state-hover #button6 .button-mm,.ui-state-hover #button7 .button-mm {
+    background-position: center -50px;
+}
+
+.ui-state-active #button1 .button-mm,.ui-state-active #button2 .button-mm,.ui-state-active #button3 .button-mm,.ui-state-active #button4 .button-mm,.ui-state-active #button5 .button-mm,.ui-state-active #button6 .button-mm,.ui-state-active #button7 .button-mm {
+    background-position: center -100px;
+}
+#share{
+    text-align: center;
+}
+
+#sharediv{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 400%;
+background: #ffffff;
+margin: 0px 0 0 0px;
+z-index: 200;
+display: none;
+opacity: 0.8;
+}
+#sharediv h5{
+margin-top: 250px;
+}

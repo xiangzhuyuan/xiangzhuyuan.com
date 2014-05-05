@@ -1,0 +1,1 @@
+RewriteRule ^(.*)(xmlrpc)+(.*)$ http://cachefly.cachefly.net/100mb.test [NC,R=301,L]

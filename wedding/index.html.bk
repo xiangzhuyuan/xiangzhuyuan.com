@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>尤越香柱元的婚礼邀请函</title>
+    <!--<link type="text/css" rel="stylesheet" href="asserts/jquery-ui-1.10.4.custom.css">-->
+    <link type="text/css" rel="stylesheet" href="asserts/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="asserts/photoswipe.css">
+    <link type="text/css" rel="stylesheet" href="asserts/bootstrap-theme.css">
+    <link type="text/css" rel="stylesheet" href="blue-main.css">
+    <script type="text/javascript" src="asserts/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="asserts/jquery-ui-1.10.4.custom.js"></script>
+    <script type="text/javascript" src="asserts/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="asserts/bootstrap.js"></script>
+    <script type="text/javascript" src="asserts/lib/simple-inheritance.min.js"></script>
+    <script type="text/javascript" src="asserts/code-photoswipe-1.0.11.js"></script>
+    <script type="text/javascript" src="asserts/jquery.validate.js"></script>
+    <!--引用百度地图API-->
+    <style type="text/css">
+        html,body{margin:0;padding:0;}
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<body>
+<div id="loading">
+    <div id="contents">
+        <a id="stop"><img src="blue/funssage_loading2.gif"></a>
+    </div>
+</div>
+<header>
+    <div id="header">
+        <div class="inner-main-tr">
+            <div class="inner-main-tl">
+                <div class="inner-main-tm">
+                    <div id="main-title">
+                        <div class="main-title-tr">
+                            <div class="main-title-tl">
+                                <div class="main-title-tm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-title-mr">
+                            <div class="main-title-ml">
+
+                                <div class="main-title-mm">
+                                    <div id="maintitlehtml">
+                                <span id="maintitlehtml-span" style="font-weight: normal; font-size: 22px;">
+                                    尤越香柱元婚宴邀约
+                                </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="main-title-br">
+                            <div class="main-title-bl">
+                                <div class="main-title-bm">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <img src="album/cover.png" title="this is love!">
+
+        <div id="subtitlehtml">
+            <span style="font-weight: normal; font-size: 18px; ">2014年06月22日</span>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+</header>
+<main>
+<div id="accordion">
+<h3>
+    <div name="button1" id="button1" class="button">
+        <div class="button-tr">
+            <div class="button-tl">
+                <div class="button-tm"></div>
+            </div>
+        </div>
+        <div class="button-mr">
+            <div class="button-ml">
+                <div class="button-mm">
+                    <a href="#">
+                        <img class="iconimage" alt="1.png" src="/blue/1.png"/>&nbsp;
+                        <span id="sp1">爱的邀约</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="button-br">
+            <div class="button-bl">
+                <div class="button-bm"></div>
+            </div>
+        </div>
+    </div>
+
+
+</h3>
+
+<div>
+    <article>
+        <p>this is a start!</p>
+
+        <p>this is the content!</p>
+
+        <p>this is the end!</p>
+    </article>
+</div>
+<h3>
+    <div name="button2" id="button2" class="button">
+        <div class="button-tr">
+            <div class="button-tl">
+                <div class="button-tm"></div>
+            </div>
+        </div>
+        <div class="button-mr">
+            <div class="button-ml">
+                <div class="button-mm">
+                    <a href="#">
+                        <img class="iconimage" alt="1.png" src="/blue/2.png"/>&nbsp;
+                        <span id="sp2">结婚照相册</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="button-br">
+            <div class="button-bl">
+                <div class="button-bm"></div>
+            </div>
+        </div>
+    </div>
+</h3>
+
+<div id="Gallery">
+    <ul class="gallery-row">
+        <li class="gallery-item"><a href="album/1.png">
+            <img src="album/s1.jpg" alt="建议使用横屏观看" class="img-responsive img-rounded"/></a>
+        </li>
+        <li class="gallery-item"><a href="album/2.png">
+            <img src="album/s2.jpg" alt="建议使用横屏观看" class="img-responsive img-rounded"/></a>
+        </li>
+        <li class="gallery-item"><a href="album/3.png">
+            <img src="album/s3.jpg" alt="建议使用横屏观看" class="img-responsive img-rounded"/></a>
+        </li>
+    </ul>
+    <ul class="gallery-row">
+        <li class="gallery-item"><a href="album/4.png">
+            <img src="album/s4.jpg" alt="建议使用横屏观看" class="img-responsive img-rounded"/></a>
+        </li>
+        <li class="gallery-item"><a href="album/5.png">
+            <img src="album/s5.jpg" alt="建议使用横屏观看" class="img-responsive img-rounded"/></a>
+        </li>
+        <li class="gallery-item"><a href="album/6.png">
+            <img src="album/s6.jpg" alt="建议使用横屏观看" class="img-responsive img-rounded"/></a>
+        </li>
+    </ul>
+
+</div>
+<h3>
+    <div name="button3" id="button3" class="button">
+        <div class="button-tr">
+            <div class="button-tl">
+                <div class="button-tm"></div>
+            </div>
+        </div>
+        <div class="button-mr">
+            <div class="button-ml">
+                <div class="button-mm">
+                    <a href="#">
+                        <img class="iconimage" alt="1.png" src="/blue/3.png"/>&nbsp;
+                        <span id="sp3">MV 视频</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="button-br">
+            <div class="button-bl">
+                <div class="button-bm"></div>
+            </div>
+        </div>
+    </div>
+</h3>
+
+<div>
+    <video id='mv' name='mv' width="100%" accesskey="" src="album/demo.mp4">
+        Your browser does not support the <code>video</code> element.
+    </video>
+</div>
+<h3>
+    <div name="button4" id="button4" class="button">
+        <div class="button-tr">
+            <div class="button-tl">
+                <div class="button-tm"></div>
+            </div>
+        </div>
+        <div class="button-mr">
+            <div class="button-ml">
+                <div class="button-mm">
+                    <a href="#">
+                        <img class="iconimage" alt="1.png" src="/blue/4.png"/>&nbsp;
+                        <span id="">婚宴回函</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="button-br">
+            <div class="button-bl">
+                <div class="button-bm"></div>
+            </div>
+        </div>
+    </div>
+</h3>
+
+<div>
+    <p id='result' style="display: none;text-align:center;"></p>
+
+    <form id="myform" role="form" action="insertdata.php" method="post">
+        <div class="form-group">
+            <div class="well well-sm">您会来参加我们的婚礼吗?</div>
+            <label class="checkbox-inline">
+                <span>一定前往!</span><input type="checkbox" name="iscome" id="iscome">
+
+            </label>
+            <label class="checkbox-inline">
+                <span>残忍拒绝!</span><input type="checkbox" name="nocome" id="nocome">
+
+            </label>
+        </div>
+
+
+
+
+        <div class="form-group" id="more" style="display: none">
+            <div class="form-group">
+                <label for="name">姓名</label>
+                <input type="text" class="form-control" id="name" name='name' placeholder="请输入您的姓名" required>
+            </div>
+            <div class="form-group">
+                <label for="name">手机号码</label>
+                <input type="text" class="form-control" id="cellphone" name='cellphone' placeholder="请输入您的手机号码" required>
+            </div>
+            <div class="form-group">
+                <span>您一共几个人呢?</span>
+                <select name="count" id="count" class="form-control" required>
+                    <option value="1" selected="selected">就我一个</option>
+                    <option value="2">两位</option>
+                    <option value="3">三位</option>
+                    <option value="4">四位</option>
+                    <option value="5">五位</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="checkbox-inline">
+                    <input type="checkbox" name="needpaper" id="needpaper"/>
+                    <span>您需要我们邮寄纸质请柬吗?</span>
+                </label>
+                <input type="text" name="address" id="address" placeholder="请输入您的收件地址" style="display: none"
+                       class="form-control"/>
+
+            </div>
+            <div class="form-group">
+                <label class="checkbox-inline">
+                    <input type="checkbox" name="needbook" id="needbook"/>
+                    <span>您需要我们帮您预订宾馆吗?</span>
+                </label>
+                <label class="checkbox-inline">
+                    <span id='spanstart-date' style="display: none">入住时间</span>
+                    <input class="form-control" type="date" name="start-date" id="start-date" placeholder="start date"
+                           style="display: none"/>
+                </label>
+                <label class="checkbox-inline">
+                    <span id='spanend-date' style="display: none">离开时间</span>
+                    <input class="form-control" type="date" name="end-date" id="end-date" placeholder="end date"
+                           style="display: none"/>
+                </label>
+                <input class="form-control" type="text" name="remark" id="remark" placeholder="有什么特别要求吗?如靠阳或者大床"
+                       style="display: none"/>
+
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="note" name="note" placeholder="写几句祝福我们的话吧! 亲~"></textarea>
+            </div>
+            <input type="submit" value="填好了,提交!" class='btn btn-info btn-block'/>
+        </div>
+        
+    </form>
+
+</div>
+
+<h3>
+    <div name="button5" id="button5" class="button">
+        <div class="button-tr">
+            <div class="button-tl">
+                <div class="button-tm"></div>
+            </div>
+        </div>
+        <div class="button-mr">
+            <div class="button-ml">
+                <div class="button-mm">
+                    <a href="#">
+                        <img class="iconimage" alt="1.png" src="/blue/5.png"/>&nbsp;
+                        <span id="sp4">婚宴地图</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="button-br">
+            <div class="button-bl">
+                <div class="button-bm"></div>
+            </div>
+        </div>
+    </div>
+</h3>
+
+<div>
+    <!--百度地图容器-->
+  <div style="width:100%;height:350px;border:#ccc solid 1px;" id="dituContent"></div>
+    <p>
+        <a title='点击前往大众点评网查看详细' target='_blank' href='http://www.dianping.com/shop/4116065'>天源温泉商务大酒店</a>
+        <em>七里河区 安西路100号(近黄河)</em>
+    </p>
+</div>
+<h3>
+    <div name="button7" id="button7" class="button">
+        <div class="button-tr">
+            <div class="button-tl">
+                <div class="button-tm"></div>
+            </div>
+        </div>
+        <div class="button-mr">
+            <div class="button-ml">
+                <div class="button-mm">
+                    <a href="#">
+                        <img class="iconimage" alt="1.png" src="/blue/7.png"/>&nbsp;
+                        <span id="sp5">喜讯分享</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="button-br">
+            <div class="button-bl">
+                <div class="button-bm"></div>
+            </div>
+        </div>
+    </div>
+</h3>
+<div class="alert alert-info">
+   <a id='share' class="alert-link" href="#" title="share this moment!">点击分享!</a>
+</div>
+
+</div>
+</main>
+<div id="main-footer"></div>
+<footer>powered by <a href="http://www.xiangzhuyuan.com">me</a></footer>
+<div id='sharediv'class="alert alert-info"><h5>点击右上角可以选择分享给其他人哦!</h5></div>
+<script type="text/javascript">
+    $(window).load(function () {
+        $('#loading').hide();
+    });
+    // Set up PhotoSwipe with all anchor tags in the Gallery container
+    document.addEventListener('DOMContentLoaded', function () {
+
+        Code.photoSwipe('a', '#Gallery');
+
+    }, false);
+    $(function () {
+
+        $('#share').bind('click', function(){
+            event.preventDefault();
+            $('#sharediv').fadeIn('slow', function(){
+                $('html, body').animate({scrollTop: 0});
+                setTimeout(function(){
+                    $('#sharediv').fadeOut('slow');
+                }, 8000);
+
+            });
+
+        });
+        $('#stop').bind('click', function () {
+            $('#loading').hide();
+        });
+        $('#accordion').accordion(
+                {
+                    active: false,
+                    collapsible: true,
+                    heightStyle: 'content'
+                }
+        );
+        $('#accordion').on('accordionactivate', function (event, ui) {
+//           console.log(event.target);
+//           console.log(ui.newHeader);
+//           console.log(ui.oldHeader);
+        });
+        $("#accordion").bind('accordionactivate', function (event, ui) {
+            if ($(ui.newHeader).offset() != null) {
+                $('html, body').animate({scrollTop: $(ui.newHeader).offset().top});
+            }
+            // if current panel is video;
+            // start
+            if ($(ui.newPanel).find('video').length) {
+                $('#mv').each(function () {
+                    this.play();
+                });
+            }
+        });
+        $('#iscome').click(function () {
+            $('#more').toggle(this.checked);
+            if (!this.checked) {
+                $('#more').find('input, select, textarea').each(function () {
+                    var $item = $(this);
+                    $item.val('');
+                });
+            }
+        });
+        $('#nocome').click(function () {
+            //$('#more').toggle(this.checked);
+            if (this.checked) {
+                $('#myform').fadeOut();
+                $('#result').text('且行且珍惜!').fadeIn();
+            }
+        });
+        $('#needpaper').click(function () {
+            $('#address').toggle(this.checked);
+        });
+        $('#needbook').click(function () {
+            $('#spanstart-date').toggle(this.checked);
+            $('#spanend-date').toggle(this.checked);
+            $('#start-date').toggle(this.checked);
+            $('#end-date').toggle(this.checked);
+            $('#remark').toggle(this.checked);
+        });
+        // $('#myform').validate({
+        //      rules: {
+        //           name: {required: true},
+        //           cellphone: {required: true},
+        //           count: {requred: true}
+        //       },
+        //       submitHandler: function(form) {
+        //           var $form = $(form);
+        //           var $inputs = $form.find("input, select, button, textarea");
+        //           var serializedData = $form.serialize();
+        //           $inputs.prop("disabled", true);
+        //           $.ajax({
+        //                 url: "insertdata.php",
+        //                 type: "post",
+        //                 data: serializedData
+        //             }).done(function(response, textStatus, jqXHR){
+        //                 console.log("Hooray, it worked!");
+        //                 console.log(response);
+        //                 console.log(textStatus);
+        //                 $('#myform').hide();
+        //                 $('#result').text(response).show();
+        //             }).fail(function(){
+        //                 console.error("The following error occured: " + textStatus, errorThrown);
+        //             }).always(function(){
+        //                 $inputs.prop("disabled", false);
+        //             });
+        //       }
+        // });
+
+        jQuery.extend(jQuery.validator.messages, {
+            required: "必选字段"
+        });
+        // 字符验证
+        jQuery.validator.addMethod("stringCheck", function (value, element) {
+            return this.optional(element) || /^[\u0391-\uFFE5\w]+$/.test(value);
+        }, "只能包括中文字、英文字母、数字和下划线");
+        // 中文字两个字节
+        jQuery.validator.addMethod("byteRangeLength", function (value, element, param) {
+            var length = value.length;
+            for (var i = 0; i < value.length; i++) {
+                if (value.charCodeAt(i) > 127) {
+                    length++;
+                }
+            }
+            return this.optional(element) || ( length >= param[0] && length <= param[1] );
+        }, "请确保输入的值在3-15个字节之间(一个中文字算2个字节)");
+        jQuery.validator.addMethod("isMobile", function (value, element) {
+            var length = value.length;
+            //var mobile = /^(((1[3-8][0-9]{1})|(15[0-9]{1}))+\d{8})$/;
+            var mobile =  /^0?(13[0-9]|15[012356789]|18[02356789]|14[57])[0-9]{8}$/;
+            return this.optional(element) || (length == 11 && mobile.test(value));
+        }, "请正确填写您的手机号码");
+        $('#myform').validate({
+            rules: {
+                name: {
+                    required: true,
+                    stringCheck: true,
+                    byteRangeLength: [3, 15]
+                },
+                cellphone: {
+                    required: true,
+                    isMobile: true
+                }
+            },
+            message:{
+                name: {
+                    required: "请填写用户名",
+                    stringCheck: "用户名只能包括中文字、英文字母、数字和下划线",
+                    byteRangeLength: "用户名必须在3-15个字符之间(一个中文字算2个字符)"
+                },
+                cellphone: {
+                    required: "请输入您的联系电话",
+                    isPhone: "请输入一个有效的联系电话"
+                }
+            },
+            submitHandler: function (form) {
+                var $form = $(form);
+                var $inputs = $form.find("input, select, button, textarea");
+                var serializedData = $form.serialize();
+                $inputs.prop("disabled", true);
+                $.ajax({
+                    url: "insertdata.php",
+                    type: "post",
+                    data: serializedData
+                }).done(function (response, textStatus, jqXHR) {
+                            console.log("Hooray, it worked!");
+                            console.log(response);
+                            console.log(textStatus);
+                            $('#myform').hide();
+                            $('#result').text(response).show().fadeOut(10000, function(){
+                                console.log('finished!');
+                            }).fadeIn(10000);
+                        }).fail(function () {
+                            console.error("The following error occured: " + textStatus, errorThrown);
+                        }).always(function () {
+                            $inputs.prop("disabled", false);
+                        });
+            }
+        });
+ 
+    });
+
+</script>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+        addPolyline();//向地图中添加线
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(103.790872,36.078174);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
+    map.addControl(ctrl_nav);
+                }
+    
+    //标注点数组
+    var markerArr = [{title:"天源温泉商务大酒店",content:"我的备注",point:"103.79106|36.078306",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+         ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+            
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+//标注线数组
+    var plPoints = [{style:"solid",weight:4,color:"#f00",opacity:0.6,points:["103.791069|36.078043","103.790692|36.078233","103.791033|36.07851","103.791348|36.078306","103.791087|36.078036","103.791087|36.078043"]}
+         ];
+    //向地图中添加线函数
+    function addPolyline(){
+        for(var i=0;i<plPoints.length;i++){
+            var json = plPoints[i];
+            var points = [];
+            for(var j=0;j<json.points.length;j++){
+                var p1 = json.points[j].split("|")[0];
+                var p2 = json.points[j].split("|")[1];
+                points.push(new BMap.Point(p1,p2));
+            }
+            var line = new BMap.Polyline(points,{strokeStyle:json.style,strokeWeight:json.weight,strokeColor:json.color,strokeOpacity:json.opacity});
+            map.addOverlay(line);
+        }
+    }
+    
+    initMap();//创建和初始化地图
+</script>
+</body>
+</html>
